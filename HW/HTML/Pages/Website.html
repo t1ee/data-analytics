@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en"></html>
+<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<head>
+	<title>Latitude Analysis Dashboard with Attitude</title>
+</head>
+
+<style>
+.text-left{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 25px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 20px;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  float: left;
+}
+
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.column {
+  float: left;
+  width: 24%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+img{
+  float: left;
+}
+
+</style>
+</head>
+<body>
+
+
+<ul>
+  <li><a href="#HOME">LATITUDE</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">PLOTS</a>
+    <div class="dropdown-content">
+      <a href="Cloudiness.html">Latitude_vs_Cloudiness</a>
+      <a href="#Latitude_vs_Humidity">Latitude_vs_Humidity</a>
+      <a href="#Latitude_vs_Temperature">Latitude_vs_Temperature</a>
+      <a href="#Latitude_vs_Wind">Latitude_vs_Wind</a>
+  <li><a href="#DATA">DATA</a></li>
+  <li><a href="#COMPARISONS">COMPARISONS</a></li>
+    </div>
+  </li>
+</ul>
+
+<h1>SUMMARY: Latitude vs. X</h1>
+  
+<div class="text-left" >
+            <p><strong><img src="/Users/teresalee/Desktop/gitHub/HW/HTML/Images/Cloudiness.png" style="width:50%;height:50%;"><br><br>The purpose of this project was to analyze how weather changes as you get closer to the equator.  To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset of over 500 cities. After assembling the dataset, Matplotlib was used to plot various aspects of weather vs. latitude. Factors analyzed included: temperature, cloudiness, wind-speed and humidity. This site provides source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed. </p></strong><br><br><br>
+            
+          </div>
+
+<div class="row">
+  <div class="column">
+    <a href="/Users/teresalee/Desktop/gitHub/HW/HTML/Pages/Cloudiness.html"><img src="/Users/teresalee/Desktop/gitHub/HW/HTML/Images/Cloudiness.png" alt="Cloud" style="width:100%">
+  </div>
+  <div class="column">
+    <a href="/Users/teresalee/Desktop/gitHub/HW/HTML/Pages/Humidity.html"><img src="/Users/teresalee/Desktop/gitHub/HW/HTML/Images/Humidity.png" alt="Humidity" style="width:100%">
+  </div>
+  <div class="column">
+    <a href="/Users/teresalee/Desktop/gitHub/HW/HTML/Pages/Temperature.html"><img src="/Users/teresalee/Desktop/gitHub/HW/HTML/Images/Temperature.png" alt="Temperature" style="width:100%">
+  </div>
+  <div class="column">
+    <a href="/Users/teresalee/Desktop/gitHub/HW/HTML/Pages/Wind.html"><img src="/Users/teresalee/Desktop/gitHub/HW/HTML/Images/Wind.png" alt="Wind" style="width:100%">
+  </div>
+</div>
+
+</body>
+</html>
+
+
+<!-- <body>
+	<h1><center>ABOUT TERESA</h1>
+	<div align="center"><img src="https://pixel.nymag.com/imgs/daily/strategist/2018/08/27/Lucy-Liu/27-lucy-liu-lede.w700.h467.jpg" alt="liaison" style="max-width:100%">
+	<p>Hi, welcome to my page! I love flying drones. I have 2 racing drones: a KingKong 260 and and STX 225 Battleship. On weekends, I host piano events throughout the Bay Area and enjoy volunteering at senior homes. </p>
+	<p><br>Contact Teresa Lee for questions about this research.</p>
+		<li>Email: teresalee@research.com</li>
+		<li>GitHub: @teresalee</li>
+		<li>Instagram: @teresalee_ig</li>
+	<table style="width:50%">
+		<tr>
+    		<th>Favorite Books</th>
+    		<th>Favorite Movies</th> 
+    		<th>Favorite Games</th>
+  		</tr>
+  		<tr>
+   			<td>A Whole New Mind: Why Right-Brainers Will Rule the Future</td>
+    		<td>The Godfather</td>
+    		<td>The Last of Us</td>
+  		</tr>
+  		<tr>
+    		<td>A Higher Loyalty: Truth, Lies, and Leadership</td>
+    		<td>X-Men</td>
+    		<td>God of War</td>
+  		</tr>
+  		<tr>
+   	 		<td>To Kill a Mockingbird</td>
+    		<td>American Hustle</td>
+    		<td>Final Fantasy 7</td>
+  		</tr>
+	</table> -->
+
+</body>
+</html>
+
