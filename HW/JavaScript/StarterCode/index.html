@@ -1,0 +1,87 @@
+<!-- {% extends "layout.html" %}
+
+{% block content %} -->
+
+<head>
+  <link href="static/css/creativetwo.css" rel="stylesheet">
+</head>
+
+<body id="page-top">
+  <header class="masthead" style="background-image: url('static/images/nasa.jpg')">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 col-md-10 mx-auto">
+            <div class="site-heading">
+              <h2 class="font-weight-bold">Unidentified Flying Objects</h2>
+              <span class="subheading">Reported Sightings</span>
+              <hr class="divider my-8">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+        <div class="row margin-top-50">
+          <div class="col-md-12">
+            <aside class="filters">
+              <div class="panel panel-default">
+                <div class="panel-heading">Multi-Field Filter</div>
+                <div class="panel-body">
+                  <div class="form-group">
+                    <ul class="list-group list-group-horizontal" id="filters">
+                      <li class="filter list-group-item">
+                        <label for="fullname">Date</label>
+                        <input class="form-control" id="date" type="text" placeholder="01/01/2010">
+                      </li>
+                      <li class="filter list-group-item">
+                        <label for="title">City</label>
+                        <input class="form-control" id="city" type="text" placeholder="buffalo">
+                      </li>
+                      <li class="filter list-group-item">
+                        <label for="squad">State</label>
+                        <input class="form-control" id="state" type="text" placeholder="tn">
+                      </li>
+                      <li class="filter list-group-item">
+                        <label for="program">Country</label>
+                        <input class="form-control" id="country" type="text" placeholder="usa">
+                      </li>
+                      <li class="filter list-group-item">
+                          <label for="threat">Shape</label>
+                          <input class="form-control" id="shape" type="text" placeholder="cylinder">
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </aside>
+          </div>
+          <div class="col-md-12">
+            <div id="table-area" class=""><br>
+              <table id="employees-table" class="table table-striped">
+                <thead>
+                  <tr>
+                    <th class="table-head" style="text-align: left">Date</th>
+                    <th class="table-head" style="text-align: left">City</th>
+                    <th class="table-head" style="text-align: left">State</th>
+                    <th class="table-head" style="text-align: left">Country</th>
+                    <th class="table-head" style="text-align: left">Shape</th>
+                    <!-- <th class="table-head" style="text-align: left">Phone</th>
+                    <th class="table-head" style="text-align: left">Threat</th> -->
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+    <script src="static/js/data.js"></script>
+    <script src="static/js/app.js"></script>
+
+<!-- {% endblock content %} -->
+
+</body>
